@@ -1,0 +1,61 @@
+
+shjuturu@USBLRSHJUTURU1 MINGW64 ~/Desktop/github
+$ git version
+git version 2.35.0.windows.1
+
+shjuturu@USBLRSHJUTURU1 MINGW64 ~/Desktop/github
+$ cd Reddy-Research
+
+shjuturu@USBLRSHJUTURU1 MINGW64 ~/Desktop/github/Reddy-Research (main)
+$ git branch
+* main
+
+shjuturu@USBLRSHJUTURU1 MINGW64 ~/Desktop/github/Reddy-Research (main)
+$ git branch master
+
+shjuturu@USBLRSHJUTURU1 MINGW64 ~/Desktop/github/Reddy-Research (main)
+$ git branch
+* main
+  master
+
+shjuturu@USBLRSHJUTURU1 MINGW64 ~/Desktop/github/Reddy-Research (main)
+$ git checkout master
+Switched to branch 'master'
+
+shjuturu@USBLRSHJUTURU1 MINGW64 ~/Desktop/github/Reddy-Research (master)
+$ git status -s
+
+shjuturu@USBLRSHJUTURU1 MINGW64 ~/Desktop/github/Reddy-Research (master)
+$ git add bill.pdf
+
+shjuturu@USBLRSHJUTURU1 MINGW64 ~/Desktop/github/Reddy-Research (master)
+$ git status -s
+A  bill.pdf
+
+shjuturu@USBLRSHJUTURU1 MINGW64 ~/Desktop/github/Reddy-Research (master)
+$ git commit -m "saving bill.pdf"
+[master c60a483] saving bill.pdf
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 bill.pdf
+
+shjuturu@USBLRSHJUTURU1 MINGW64 ~/Desktop/github/Reddy-Research (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 115.76 KiB | 12.86 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/SharanKumarRedd/Reddy-Research/pull/new/master
+remote:
+To https://github.com/SharanKumarRedd/Reddy-Research.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+shjuturu@USBLRSHJUTURU1 MINGW64 ~/Desktop/github/Reddy-Research (master)
+$ ^C
+
+shjuturu@USBLRSHJUTURU1 MINGW64 ~/Desktop/github/Reddy-Research (master)
+$
